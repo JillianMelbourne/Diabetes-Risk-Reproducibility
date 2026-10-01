@@ -91,7 +91,7 @@ In the notebook, choose **Kernel > Restart & Run All**. The notebook reads the d
 
 
 ## Expected outputs
-For the example dataset, a clean run produces:
+Expected output for example dataset:
 - **Validation:** "All required checks passed: 768 rows x 9 columns; Outcome 0 = 500, Outcome 1 = 268", with zero counts of Glucose 5, D_BP 35, Skin_Thickness 227, Insulin 374, BMI 11.
 - **Preparation:** impossible zeros and one 99 mm skinfold value set to missing; 392 of 768 patients have complete data.
 - **Descriptive statistics:** n, mean, SD, and median by outcome, plus Cohen's d (largest for Glucose, d = 1.19).
